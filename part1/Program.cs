@@ -53,7 +53,7 @@ namespace CyberSecurityChatBot
         {
             try
             {
-                SoundPlayer player = new SoundPlayer("welcome.wav");
+                SoundPlayer player = new SoundPlayer("greeting.wav");
                 player.PlaySync();
             }
             catch
